@@ -6,6 +6,8 @@ This project is a Python-based preprocessing pipeline that converts simple water
 
 The goal of this project is to simulate the type of preprocessing required in particle-based computational mechanics methods (e.g., SPH), where continuous geometry must be discretized into particles before simulation.
 
+![Demo Image](demo_image.png)
+
 ## Features
 
 * Loads STL geometry using Trimesh
@@ -96,3 +98,4 @@ python generate_grid.py
 ## Motivation
 
 This project was built to explore how geometric preprocessing pipelines convert CAD/mesh-based representations into particle-based discretizations for simulation. It serves as a lightweight prototype of preprocessing infrastructure used in computational mechanics research.
+
